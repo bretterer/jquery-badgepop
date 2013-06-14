@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title>jQuery badgePop Demo Page</title>
+
+	<style>
+
+	body,html {background-color:slategray;}
+
+	section { height:600px; border:1px solid black;}
+
+	.badge { 
+		display: block;
+		position: absolute;
+		width: 120px;
+		height: 120px;
+		background: url(img/badge.png) no-repeat 0 0;
+		z-index: 1;
+		background-size: 120px 120px;
+		margin-left:200px;
+		margin-top:200px;
+		-webkit-transform: scale(0);
+		-moz-transform: scale(0);
+		-ms-transform: scale(0);
+		-o-transform: scale(0);
+		transform: scale(0);
+	}
+
+	.badge span {
+		display: block;
+		width: 120px;
+		height: 120px;
+		background: url(img/badge_label.png) no-repeat 0 0;
+		background-size: 120px 120px;
+		opacity:0;
+	}
+	</style>
+</head>
+<body>
+
+<section>
+	<div class="badge" id="badge1">
+		<span></span>
+	</div>
+</section>
+<section>
+	<div class="badge" id="badge2">
+		<span></span>
+	</div>
+</section>
+<section>
+	<div class="badge" id="badge3">
+		<span></span>
+	</div>
+</section>
+<section>
+	<div class="badge" id="badge4">
+		<span></span>
+	</div>
+</section>
+<section>
+	<div class="badge" id="badge5">
+		<span></span>
+	</div>
+</section>
+<section>
+	<div class="badge" id="badge6">
+		<span></span>
+	</div>
+</section>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.1.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.9.8/TweenMax.min.js"></script>
+<script type="text/javascript" src="js/jquery.badgepop.0.0.1.js"></script>
+
+<script>
+
+$(document).ready(function() {
+	$('#badge1').badgePop({'yPop':10});
+	$('#badge2').badgePop({'yPop':700});
+	$('#badge3').badgePop({'yPop':900});
+	$('#badge4').badgePop({'yPop':1500});
+	$('#badge5').badgePop({'yPop':2000,scale:4,ease:'Elastic.easeIn','mainDuration':3,childDuration:'1.5',childOpacity:'.5',childDelay:6});
+	$('#badge6').badgePop({'yPop':2200});
+});
+
+</script>
+
+</body>
+</html>
