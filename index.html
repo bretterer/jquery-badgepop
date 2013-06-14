@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jquery-badgepop by bretterer</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jquery-badgepop</h1>
+        <p>Badge Pop jQuery Plugin</p>
+
+        <p class="view"><a href="https://github.com/bretterer/jquery-badgepop">View the Project on GitHub <small>bretterer/jquery-badgepop</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/bretterer/jquery-badgepop/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/bretterer/jquery-badgepop/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/bretterer/jquery-badgepop">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="jquery-badge-pop-plugin" class="anchor" href="#jquery-badge-pop-plugin"><span class="octicon octicon-link"></span></a>jQuery Badge Pop Plugin</h1>
+
+<h3>
+<a name="simple-usage" class="anchor" href="#simple-usage"><span class="octicon octicon-link"></span></a>Simple Usage</h3>
+
+<p><code>.badgePop(options)</code></p>
+
+<h6>
+<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h6>
+
+<p>yPop: The spot of scroll height in px you want the pop to happen.</p>
+
+<p><code>
+    $('selector').badgePop({yPop:100});
+</code></p>
+
+<h3>
+<a name="advanced-options" class="anchor" href="#advanced-options"><span class="octicon octicon-link"></span></a>Advanced Options</h3>
+
+<p><code>.badgePop(options)</code></p>
+
+<h6>
+<a name="options-1" class="anchor" href="#options-1"><span class="octicon octicon-link"></span></a>Options</h6>
+
+<p>yPop: The spot of scroll height in px you want the pop to happen. (Default: 0)<br>
+scale: Scale size of final element. (Default: 1)<br>
+ease: What easing you want to use. (Default: Elastic.easeOut)<br>
+mainDuration: number of seconds you want the main element to take (Default: 1)<br>
+childDuration: Number of seconds you want the children to take. (Default: .75)<br>
+childOpacity: Final Opacity of the children elements. (Default: 1)<br>
+childDelay: How long of a delay until the child elements begin to show (Default: .25)    </p>
+
+<p><code>
+    $('selector').badgePop(
+        {
+            'yPop':10,<br>
+            'scale':4,
+            'ease':'Elastic.easeIn',<br>
+            'mainDuration':3,<br>
+            'childDuration':'1.5',<br>
+            'childOpacity':'.5',<br>
+            'childDelay':6<br>
+        }
+    );
+</code></p>
+
+<h3>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h3>
+
+<p>Created and maintained by Brian Retterer. Copyright © 2013. Licensed under the <a href="LICENSE.md">MIT license</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/bretterer">bretterer</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
