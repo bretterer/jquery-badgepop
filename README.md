@@ -1,6 +1,8 @@
 jQuery Badge Pop Plugin
 ========
 
+[Demo Here](http://bretterer.github.io/jquery-badgepop/demo/)
+
 ### Simple Usage ###
 `.badgePop(options)`
 
