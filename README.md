@@ -3,6 +3,9 @@ jQuery Badge Pop Plugin
 
 [Demo Here](http://bretterer.github.io/jquery-badgepop/demo/)
 
+### Depends On ###
+[GreenSock Tween Max](https://github.com/greensock/GreenSock-JS/)
+
 ### Simple Usage ###
 `.badgePop(options)`
 

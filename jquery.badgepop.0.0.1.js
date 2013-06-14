@@ -5,6 +5,8 @@
  * Licensed under the MIT license.
  * Copyright 2013 Brian Retterer
  * https://github.com/bretterer
+ *
+ * @depends GreenSock Tween Max https://github.com/greensock/GreenSock-JS/
  */
 
  ;(function($) {
